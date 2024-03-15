@@ -1,0 +1,27 @@
+net:
+  host: 'public.cwb06.test'
+
+firebase:
+  project: "cwb06-dev"
+
+environmentJSON: {
+  authenticationConfiguration: {
+    firebaseConfiguration: {
+      firebase: {
+        apiKey: "AIzaSyAHSokKD0bYfEUfYBcgWkEAbktsKdUftTE",
+        authDomain: "cwb06-dev.firebaseapp.com",
+      },
+      tenantId: 'public-portal-gag9s',
+    },
+    sessionExpiration: {
+      idleTimeSeconds: 1800,
+      sessionTimeSeconds: 64800,
+    },
+  },
+  googlePlacesApiConfiguration: {
+    googleApiKey: '',
+  },
+  httpConfiguration: {
+    baseUrl: 'http://api.cwb06.test',
+  },
+}
